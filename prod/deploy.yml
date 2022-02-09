@@ -1,0 +1,8 @@
+##
+# This playbook deplys the whote app stack
+##
+- name: apply common configuration to server
+  hosts: all
+  user: deployer
+  roles:
+    - common
